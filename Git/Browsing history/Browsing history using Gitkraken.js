@@ -1,0 +1,9 @@
+/*
+Browsing hitory using Gitkraken
+
+Open the repository. 
+You can select any commit and with right click display more options.
+Select any file of the commit and go to the diff view.
+Go to blame or history and continue to see.
+Close and press ESC to go out the file.
+*/

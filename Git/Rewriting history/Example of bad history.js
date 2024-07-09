@@ -1,0 +1,6 @@
+/*
+Example of bad history 
+
+if you have a bad names on the commits or if you have related commits you should combine them.
+
+*/

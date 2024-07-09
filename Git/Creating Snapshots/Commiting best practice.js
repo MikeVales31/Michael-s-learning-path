@@ -1,0 +1,7 @@
+/*
+The commit is not really big or small.
+Commit often it has to represent the change to the code.
+Example commit for a fix bug.
+Throw messages that describe clearly the changes.
+
+*/

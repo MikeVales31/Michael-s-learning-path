@@ -1,0 +1,7 @@
+/*
+Adding collaborators
+
+Go to settings.
+Go to collaborators.
+Select add people in the manage access.
+*/
