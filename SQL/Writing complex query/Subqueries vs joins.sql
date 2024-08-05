@@ -1,0 +1,6 @@
+/*
+Subqueries vs joins
+
+Often we can do any of both to do the same exceresise in this case we need to take into 
+account the readability of the code.
+*/

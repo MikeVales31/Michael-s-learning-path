@@ -1,0 +1,8 @@
+/*
+Forward engineering a model
+
+Makes a database from a model.
+
+In the physical model go to the database menu and select forward engineer.
+Just keep the options as default and then it will generate a database.
+*/

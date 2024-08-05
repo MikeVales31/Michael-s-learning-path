@@ -1,0 +1,7 @@
+/*
+Creating views
+
+We can save the queries or subqueries in a view and this will simplify the
+select statements.
+A view behaves like a virtual table. 
+*/

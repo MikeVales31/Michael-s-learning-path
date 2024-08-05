@@ -1,0 +1,5 @@
+/*
+Repeatable read isolation level
+
+The reads are going to be consistent and repeatable.But we have phantom reads.
+*/

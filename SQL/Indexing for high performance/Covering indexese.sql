@@ -1,0 +1,9 @@
+/*
+Covering indexese
+
+It is an index that covers everything that a query needs.
+
+When you use the explain keyword in the extra column it appears just 
+using index.
+
+*/

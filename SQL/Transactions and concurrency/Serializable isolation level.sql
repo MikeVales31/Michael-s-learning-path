@@ -1,0 +1,6 @@
+/*
+Serializable isolation level
+
+We solve all concurrency problems because our transactions are executed sequentially.
+Use it only if you want to prevent phantom reads.
+*/
