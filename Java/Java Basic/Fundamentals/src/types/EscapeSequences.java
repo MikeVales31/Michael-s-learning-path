@@ -1,9 +1,9 @@
 /*
 Escape sequences
 
-Prefix with back slask (\)
+Prefix with back slash (\)
 Double quotes ("")
-Back slask (\)
+Back slash (\)
 New line (\n)
 Tab (\t) 
 */

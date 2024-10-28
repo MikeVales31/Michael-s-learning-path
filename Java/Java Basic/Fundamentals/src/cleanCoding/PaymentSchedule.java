@@ -23,7 +23,7 @@ public class PaymentSchedule {
                 break;
             
             default:
-                System.out.println("trolazo");
+                System.out.println("not enough");
                 break;
         }
         
