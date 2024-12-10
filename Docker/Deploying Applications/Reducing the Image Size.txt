@@ -1,0 +1,9 @@
+Reducing the Image Size 
+
+1. Create an optimized asset for production
+2. Put the assets inside of the web server and serve them
+3. Go to the docker file and copy it and rename the copy
+4. You can rename the FROM command with AS and give a name                      example: (FROM node:14.16.0-alpine3.13 AS build-stage)
+                                                                                Note: to make commentaries use (#)
+5. Create another FROM command and use the webserver (nginx. apache, ...)
+6. Create a copy of the files of the previous FROM (build stage)

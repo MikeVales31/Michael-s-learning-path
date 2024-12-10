@@ -1,0 +1,12 @@
+Deployment Options
+
+1. Single-host deployment                           Note: it is easy but if the server goes offline the app will not be accessible,
+                                                          can't manage lots of users
+
+2. Cluster deployment                               Note: we get high availability and scalability 
+
+    Orchestation tool 
+
+    Docker Swarm (Docker)
+    Kubernetes (Google)
+    

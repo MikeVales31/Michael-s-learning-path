@@ -1,0 +1,15 @@
+Managing Groups
+
+Commands
+groupadd (name)                      adds a group
+groupmod
+groupdel
+cat /etc/group                       show all groups
+usermod -G (group name) (user)       adds to a supplementary group
+cat /etc/passwd | grep (name)        see only the record of the name on the passwd file        Note: you can also do 
+                                                                                                    "grep (name)  /etc/passwd"
+groups (name)                        see the name of the groups
+
+Note: we use groups, all users in the same group have the same permission.
+Note: every Linux user has a primary group and zero or more secondary groups, the primary group is automatically created when we created
+      when we create a new user.

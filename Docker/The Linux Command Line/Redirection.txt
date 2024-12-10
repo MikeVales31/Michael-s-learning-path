@@ -1,0 +1,12 @@
+Redirection
+
+When we change the source of the input or output 
+
+Note: The redirection operators are.  (>) for the standard output. (<) for the standard input.
+
+
+Standard input: represents keyboard.
+Standard output: represents the screen.
+
+Note: > you can use it to take the text of some files and combine it into a new one or use it into any other command.
+Note: < not really sure of a useful case.

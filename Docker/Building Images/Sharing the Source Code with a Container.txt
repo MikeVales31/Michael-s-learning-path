@@ -1,0 +1,16 @@
+Sharing the Source Code with a Container 
+
+Publishing changes
+
+For production: build a new image
+For development 
+
+Note: we can create a mapping or a binding between a directory on the host and a directory inside the container.
+      So this way any changes we make to any files in this directory are immediately visible inside the container.
+
+Commands 
+
+docker run -d -p 5001:3000 -v $(pwd):app/data (image)             Note: pwd is print working directory without $() docker will think is a name volume
+                                                                  Note: when we execute the complete command $(pwd) will be evaluated first
+
+

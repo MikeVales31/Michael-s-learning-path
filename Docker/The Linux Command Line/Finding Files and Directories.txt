@@ -1,0 +1,10 @@
+Finding files and directories
+
+Command 
+
+find                         find files and directories      Note: see all files and directories in the current directory recursively.
+find (path)                  find files and directories      Note: see all files and directories in the directory recursively.
+find -type d                 find just directories           Note: see all directories in the current directory.
+find -type f                 find just files                 Note: see all files in the current directory.
+find -type f -name "f*"      find files that start with f    Note: case sensitive.
+find -type f -iname "f*"     find files that start with F    Note: no case sensitive.

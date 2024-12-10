@@ -1,0 +1,18 @@
+Managging Processes
+
+Process: an instance of a running program.      (ps)              Note: ps is not actually executing after running the command.
+
+PID: process identifier                    identifier
+TTY: teletype                              shows type of terminal the user is logged into         Note: pts means pseudo terminal
+Time                                       amount of CPU time each process consume
+
+Note: bash it is the program that takes our commands and sends them to Linux for execution.
+
+
+Commands
+
+sleep (number)                     the prompt sleeps for the number of seconds indicated          Note: if we want to put it on the 
+                                                                                                        background, so we can execute 
+                                                                                                        another commands. We add (&) 
+                                                                                                        at the end of the sleep command.
+kill (PID)                         kill the process

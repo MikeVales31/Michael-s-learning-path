@@ -1,0 +1,6 @@
+Linux Distributions (Ubuntu, Debian, Alpine, Fedora, CentOS, ...)
+Are also called Linux distros that are versions created by individual or communities. Each of this distributions are made 
+to fit specialized needs like running servers, desktop computers, mobile phones, etc...
+
+
+Note: Linux is an open source software.

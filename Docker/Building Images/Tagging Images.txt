@@ -1,0 +1,13 @@
+Tagging Images
+
+Whenever you pull something it will create a TAG named "latest".
+
+Note: always use explicit tags to identify what version are you running in each enviroment.
+
+Command
+
+docker build -t (image):(tag) .                               Create a tag identifier
+docker image remove (image):(tag)                             Remove image with tag identifier
+docker image tag (image ID or name + tag)((image):new tag)    Change a tag to an existing image 
+
+Note: an image can have multiple tags

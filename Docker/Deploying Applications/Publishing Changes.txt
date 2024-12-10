@@ -1,0 +1,8 @@
+Publishing Changes
+
+Note: you should properly tag your images before deploying to various enviroments, so you can know the version.
+      if you find inconsistency like the applications behaves differently in the staging enviroment with the production,
+      we do not know what is the version of the enviroment are running.
+
+We add the image property in the web service and API service                    example: (image: vidly_web:1) 
+                                                                                         (image: vidly_api:1) 

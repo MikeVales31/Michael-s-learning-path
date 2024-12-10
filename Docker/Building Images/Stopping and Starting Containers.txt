@@ -1,0 +1,9 @@
+Stopping and Starting Containers
+
+Commands 
+
+docker stop (name of container)                   stop container
+docker start (name of container)                  start container 
+
+
+Note: difference between (start) and (run). With (run) we start a new container. With (start) we start a stopped cointer.

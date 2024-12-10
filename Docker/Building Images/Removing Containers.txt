@@ -1,0 +1,12 @@
+Removing Containers
+
+docker container rm (name of container)
+docker rm (name of container)                              Note: you need to stop the container.
+docker rm -f (name of container)                           force the remove                     Note: doesn't require to stop the container
+docker container prune                                     remove all stopped containers
+
+
+docker ps -a | grep (name of container)                    filter data of the process           Note: just work on Linux
+
+
+

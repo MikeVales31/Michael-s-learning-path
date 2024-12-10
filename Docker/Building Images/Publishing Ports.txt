@@ -1,0 +1,6 @@
+Publishing Ports
+
+Commands
+
+docker run -d -p (port on the host):(port on the container)       example: docker run -d -p 3000:3000             Note: -d for detach -p port 
+docker run -d -p (port on the host):(port on the container) --name (name) (image)           port mapping and give a name to the container   

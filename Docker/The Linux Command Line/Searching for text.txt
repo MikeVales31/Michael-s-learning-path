@@ -1,0 +1,12 @@
+Searching for text
+
+Command 
+
+grep (word) (file)                             Note: grep means global regular expression print, remember that is case sensitive.
+grep -i (word) (file)                          Note: -i removes the case sensitive.
+grep -i (word) (file1)(file2)                  Note: we can search in multiple files just adding the files
+grep -i (word) (pattern)                       Note: we can search in multiple files by adding the pattern   example: grep -i hello file*  
+grep -i -r (word) (directory)                  Note: it will check the directory, if we use (.) it will check the current directory.
+
+Note: in Linux we can combine multiple options 
+Example:  grep -i -r (word) (directory) is the same that grep -ir (word) (directory)

@@ -1,0 +1,30 @@
+Running Linux
+
+Note: we can extract files from hub.docker.com
+
+Commands:
+
+docker pull 
+docker run (if you have locally it will start a container otherwise it will search for it and then start a container).
+docker ps (see the list of running containers/processes )
+docker ps -a (see all the containers even if they stop)
+ducker run -it "image" (start a container with the interact mode)
+Note: this will return a shell prompt, a shell is a program that takes our commands and passes them to the operating system for execution.
+Note: in the shell prompt the first part represents the currently log in user, after the @ we have the name of the machine,
+      after the column where are we in the file system and the final symbol are the privileges.
+
+Exmple:
+root@2f759r6996e9: /#
+
+Note: in the shell created, we can make the following commands-
+
+echo (message) prints the message on the therminal.
+whoami  shows the current user
+echo $0  location of the shell program.
+history  shows all commands executed lately 
+Note: after history command you can put an (!) and the number that shows in the previous commands to replay it. 
+
+
+Note: Bash means Bourne again shell. Steve Bourne create this programs.
+Note: Linux is a case sensitive lenguage. 
+

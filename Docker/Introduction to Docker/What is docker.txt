@@ -1,0 +1,21 @@
+What is docker 
+
+A platform for building, running and shipping applications. We can easily package our applications with everything it needs,
+and run it anywhere on any machine with Docker.
+
+
+Why your apps run in your local machine but does not somewhere else?
+1. One or more files are missing 
+2. Software version mismatch
+3. Different configuration settings
+
+
+Note: in new machines you do not have to install and configure all, just tell docker to bring the application
+
+
+How to bring a docker application?
+$ docker-compose up 
+
+Note: it will automatically download and run everything it needs inside an isolation enviroment called container
+Note: the container allows multiple applications use different versions of some software side by side.
+Note: when we are done with the application, we can remove everything in one go ( $ docker-compose down --rmi all)

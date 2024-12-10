@@ -1,0 +1,31 @@
+Defining Entrypoints
+
+Note: in the project directory
+
+Command 
+
+ducker run (image name) npm start
+
+
+
+ORDER OF COMMANDS 
+
+FROM 
+RUN 
+USER 
+WORKDIR 
+COPY 
+RUN     
+ENV
+EXPOSE 
+CMD                                                Note: CMD for command instructions, you can't have multiple command instructions
+ENTRYPOINT                                         
+
+Note: in the terminal use the following command "docker build -t (app name) ."
+Note: the RUN instruction is a build time instruction (building the image). CMD instruction is for a runtime instruction.(when start a container).
+Note: CMD has a Shell form               example: CMD npm start                Note: ducker will execute the command inside of a separate shell
+                Execute form             example: CMD ["npm", "start"]         Note: try to always use the execute form
+
+Note: ENTRYPOINT has a shell form and execute form too, the difference is we can rewrite a command starting a container on CMD and it is a little 
+      more difficult on ENTRYPOINT. Are really similar CMD and ENTRYPOINT.
+

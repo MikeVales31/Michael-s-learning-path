@@ -1,0 +1,8 @@
+Cleaning Up our Workspace 
+
+
+Commands 
+
+docker image ls -q                                 see the list of image ID
+docker container rm -f $(docker container ls -aq)  remove all containers            Note: we should always remove containers first
+docker image rm $(docker image ls -q)              remove all images                Note: we should always remove containers first

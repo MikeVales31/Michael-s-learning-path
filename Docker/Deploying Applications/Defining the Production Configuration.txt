@@ -1,0 +1,7 @@
+Defining the Production Configuration
+
+1. Create a copy of the docker-compose file with other name                             example: docker-compose.prod.yml
+2. Create a property called restart in each service and assign no                       example: (restart: no)
+
+IMPORTANT 
+you can see every property in (docs.docker.com/compose/compose-file/)

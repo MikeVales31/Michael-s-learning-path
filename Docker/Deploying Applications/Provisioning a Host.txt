@@ -1,0 +1,13 @@
+Provisioning a Host 
+
+Commands 
+
+docker-machine create `
+--driver digitalocean `
+--digitalocean-access-token (token) `                                 Note: search for API oon Digital Ocean, and if there is no need for anything else
+(server name)
+
+Note: the previous commands are in fact just one command
+
+
+

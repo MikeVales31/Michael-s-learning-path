@@ -1,0 +1,9 @@
+The Sample Web Application
+
+Note: if you have an application just go to the main root 
+
+Commands
+
+ls                                   Note: checkout you have this file docker-compose.yml
+docker-compose up                           
+

@@ -1,0 +1,8 @@
+Running Commands
+
+After the COPY command. We use it to install the project dependencies or any command that we can execute in the terminal.
+
+FROM 
+WORKDIR
+COPY
+RUN npm install

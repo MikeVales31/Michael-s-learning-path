@@ -1,0 +1,6 @@
+Running Tests
+
+Command 
+
+npm test 
+

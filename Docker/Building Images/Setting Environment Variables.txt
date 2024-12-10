@@ -1,0 +1,13 @@
+Setting Environment Variables
+
+After the RUN command. Use the ENV command.
+
+ENV (variable)=(assignation)
+
+Example:
+
+FROM 
+WORKDIR
+COPY
+RUN
+ENV API_URL=http://api.myapp.com/ 

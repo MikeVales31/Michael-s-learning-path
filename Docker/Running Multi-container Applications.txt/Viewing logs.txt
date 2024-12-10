@@ -1,0 +1,5 @@
+Viewing Logs
+
+docker-compose logs                         see all the logs on the database
+docker logs (container ID)                  see an specific container
+

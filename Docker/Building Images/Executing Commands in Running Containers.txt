@@ -1,0 +1,18 @@
+Executing Commands in Running Containers
+
+When you start a container it executes the default command that we specified in our Docker file.
+
+Note: to execute on a running container later.
+
+
+Commands 
+
+docker exec (container) (any command [windows or Linux])             execute anything
+docker exec -it (container) sh                                       shell sesion inside of a container         Note: when we are done type (exit)
+ 
+
+
+
+
+Note: the difference between (exec) and (run). With (run) we start a new container and run a command. With (exec) we execute a command 
+in a running container

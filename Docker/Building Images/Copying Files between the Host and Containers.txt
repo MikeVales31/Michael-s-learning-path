@@ -1,0 +1,11 @@
+Copying Files between the Host and Containers
+
+Note: you need to have a file in a container, then.
+
+Commands
+
+docker cp (container ID [source]):(full path to a file or directory) (where)        copy file from container to Host    
+                                                                                    example:  docker cp e1c9043ea8ce:/app/log.txt .
+
+docker cp (file name with extension) (container ID):(path)                          copy file from Host to container    
+                                                                                    example: docker cp secret.txt e1c9043ea8ce1:/app

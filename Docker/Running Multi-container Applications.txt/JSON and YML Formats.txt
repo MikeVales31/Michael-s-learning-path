@@ -1,0 +1,39 @@
+JSON and YML Formats 
+
+JSON (JavaScript Object Notation)                     Note: extension (.json)
+
+It is a human readable language for representing data. It needs to have one or more key value pairs. 
+Note: values can be strings, number, boolean, arrays or objects.                                        Note: for arrays use "[]"
+
+Example:
+{
+    "(Key)": (value),
+    "(Key 2)": (value 2) 
+}
+
+
+YML                                                  Note: extension (.yml) or (.yaml)
+
+On the top at the beginning we put (---)
+
+Example:
+
+name: The ultimate Docker Course                   Note: we do not add quotes on the strings
+price: 149                                         Note: we do not add a comma to separate key value pairs
+is_publisher: true 
+
+tags:                                              Note: for list or arrays we use hiffens
+    - software
+    - devops
+
+author:                                            Note: for objects instead of curly brackets just indent the words
+    first_name: Mosh
+    last_name: Hamedani 
+
+
+
+IMPORTANT
+
+Parsing YML files is slower than parsing JSON files.
+YML for configuration files.
+JSON for exchanging data between multiple computers like a client and a server.

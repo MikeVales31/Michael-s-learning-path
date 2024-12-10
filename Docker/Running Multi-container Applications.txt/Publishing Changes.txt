@@ -1,0 +1,10 @@
+Publishinng Changes
+
+Open the compose file and add volumes with the array syntax
+
+Example:
+    - ./backend:/app
+
+Note: nodemon in one of the packages that the backend project depend on.
+
+Need to use (npm install)

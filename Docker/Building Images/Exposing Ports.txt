@@ -1,0 +1,12 @@
+Exposing Ports
+
+When we run an application inside a container, the port will be open on the container.
+
+Note: in the same machine we can have multiple containers running the same image, all this containers will be listening in the port.
+
+FROM
+WORKDIR
+COPY
+RUN 
+ENV
+EXPOSE (port)                         Note: the command doesn't automatically publish the port on the host. It is a way to document

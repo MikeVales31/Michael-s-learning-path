@@ -1,0 +1,24 @@
+File Permissions 
+
+Note: a shell script is a file with the termination (.sh) 
+Note: to see the permissions of a file we have to get a long list (ls -l)
+
+if the first letter is d is a directory or if is - is a file.
+
+Note: there are 9 things else on the line that indicates the permissions. 
+      The first group (3) permissions for the user who owns the file.
+      The second gorup (3) permissions for the group who owns the file.
+      The third group (3) permissions for everyone else.
+
+
+
+Commands
+
+Note: r means read, w means write and x means execute.
+
+chmod u+x (where)              change the permissions for the user              N
+chmod g                        change the permissions for the user
+chmod o                        change the permissions for the user
+
+Note: you can change permissions of different combinations in one go (chmod og+x) and give it for multiple files just write it at the end4
+      by pattern too.

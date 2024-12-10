@@ -1,0 +1,19 @@
+Chaining or combine comands 
+
+Just add a semicolumn at the end of each command.
+
+Note: if you run multiple times and one command throws an error, the others keep executing.
+Note: if we want to treat it like a transaction use the AND operator (&&).
+
+
+Boolean
+AND (&&)
+OR  (||)
+
+
+Note: we can use pipes to take the output of a command and send it to another command.
+            Example: ls /bin | less                 Explanation: what comes out of the 1st command goes into the 2nd command.
+
+Note: when you have a lot of commands, you can make more readable after you make your command put (\ + Enter) and do the next command.
+      keep the semicolumn.
+

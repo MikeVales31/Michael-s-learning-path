@@ -1,0 +1,9 @@
+Starting Containers
+
+Commands
+
+docker ps                                             See all processes that are running                Note: a container is a process
+docker run -d (image)                                                                                   Note: -d is for detach mode
+docker run -d --name (name) (image)                   Run in detach mode the image and give it a name                             
+
+

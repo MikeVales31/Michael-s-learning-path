@@ -1,0 +1,8 @@
+Getting a Virtual Private Server (VPS)
+
+Digital Ocean                                            Note: it is the most simplest and friendly one.    
+Google Cloud Platform (GCP)
+Microsoft Azure 
+Amazon Web Services (AWS)
+
+

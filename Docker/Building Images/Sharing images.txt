@@ -1,0 +1,11 @@
+Sharing Images 
+
+1. Go to docker hub.
+2. Create a repository in docker hub.
+
+Note: on the terminal 
+3. docker image tag (image ID) (new tag)
+4. docker login 
+5. docker push (image)
+
+Note: now that the image is in Docker hub we can pull it from any machine that runs Docker.

@@ -1,0 +1,9 @@
+Building images
+
+Everything you can do in Docker, you can do in docker compose.
+
+Commands
+
+docker-compose build                                    Note: this build every , you need to have a docker file for each property
+docker-compose build --no-cache                         Note: fully rebuild everything 
+Note: 

@@ -1,0 +1,10 @@
+Removing Images
+
+Commands
+
+docker images                           see the list of images
+docker image prune                      clear dangling images
+docker container prune                  removes all stop containers
+docker image rm (name or ID)            remove 1 or multiple images 
+
+Note: images with no name and no tag are called dangling images. Layers without relationship tagged image.

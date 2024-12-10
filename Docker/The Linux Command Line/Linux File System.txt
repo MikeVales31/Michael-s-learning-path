@@ -1,0 +1,20 @@
+Linux File System
+
+
+Note: in Linux just like windows are files and directories organized in a tree (hierarchical constructor).
+
+Windows (program) 
+
+c:\\
+        Program files
+        Windows
+
+Linux (program)
+/
+    bin (binaries or programs)                      root (home directory of the root user)
+    boot (all the files related to booting)         lib (keeping library files)
+    dev (devices)                                   var (variable)
+    etc (editable text configuration)               proc (include files that represents running processes)
+    home (store home directories / users )
+
+Note: in Linux everything is a file including devices, directories, network socket, pipes and so on.

@@ -1,0 +1,26 @@
+Docker Networking
+
+When we run an application with docker compose it will automatically create a Network and add containers on that Network.
+
+Commands
+
+docker network ls                              see all the networks in the machine
+
+
+Note: every Docker installation has three networks (bridge, host, none)
+Note: start a shell session in the web container and ping the other container
+
+docker exec -it (container ID) sh 
+    ping (container name)
+    ifconfig                                          see the IP adress of the container                                        
+
+Note: docker comes with an embedded DNS server that contains the name and IP of these containers, inside each container we have a component
+      called the DNS resolver. This DNS resolver talks to the DNS server to find the IP address of the target container. So when we ping the 
+      other container the DNS resolver asks the server what is the IP adress of the container and the server returns the adress then the container
+      call it using the IP adress. Each container has an api adress of the network.
+
+Note: open (mongodb compass) to verify it.
+
+
+
+

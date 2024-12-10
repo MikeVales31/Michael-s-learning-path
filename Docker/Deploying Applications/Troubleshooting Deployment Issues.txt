@@ -1,0 +1,21 @@
+Troubleshooting Deployment Issues 
+
+docker-machine ls 
+docker ps                                            Note: checkout the logs and persmissions
+docker-compose -f (docker-compose file) up --build   
+
+Note: bring up the chrome dev tools look at the request sent to our API(Network, XHR), before running the build use the 
+      ENV command                                                       example: ENV REACT_APP_API_URL= (set it to the server)
+
+docker-compose -f (docker-compose file) up --build
+
+
+
+
+IMPORTANT 
+To deplo Docker applications
+
+1. Activate the Docker machine (docker-machine ls)
+2. Run (docker-machine env [machine name])
+3. Execute the final command that the console return (eval ....)
+4. Bring up the application (docker-compose up)

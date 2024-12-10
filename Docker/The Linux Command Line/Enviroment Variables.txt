@@ -1,0 +1,24 @@
+Environment variables
+
+We can set it to storing configuration settings for our applications.
+
+Commands 
+
+printenv                                       see all the enviroment variables onthis machine
+(variable) PATH                                see the value of a particular variable
+echo (variable)                                see the value of a particular variable
+export (variable name and set it)              defines a variable                                    example:  export DB_user=mike
+                                                                                                     Note: it is stored in the current session 
+exit                                           terminates the session
+docker ps                                      see processors or containers
+docker ps -a                                   see all containers (including stop)
+docker start -i (container ID)                 start a container                                     Note: -i is so we can interact
+source (file)                                  reload a file                                         exmple: source .bashrc
+                                                                                                     Note: we have to execute it on the 
+                                                                                                           home directory so we add ~/
+                                                                                                            (source ~/ .bashrc)
+
+
+Note: bashrc is the user's personal startup file.
+Note: you can redirection into another file but careful if you just run the command it will be overwrite. So in order to append(>>)
+      instead of just one. IMPORTANT the changes made it, are only effective in the next terminal session.

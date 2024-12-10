@@ -1,0 +1,8 @@
+Viewing the Logs 
+
+Commands
+
+docker logs -f (container ID)                                          follow the log 
+docker logs -n (number of lines) (container ID)                        number of lines to show
+docker logs -n (number of lines) -t (container ID)                     number of lines to show and timestamps
+

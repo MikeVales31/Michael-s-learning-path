@@ -1,0 +1,16 @@
+Editing and viewing files
+
+1. Nano is basic text editor for Linux.                       Note: remember to install it   (apt install nano)
+2. Create a file                                              Example: nano file1.txt
+
+Commands 
+
+cat (file)                       we can see the file           Note: the best use is when the file is short
+more                             see a long file per pages     Note: to change the page press space, enter goes line by line, 
+                                                                     to exit we put q
+less(file directory)                  is a command             Note: you have to install it, is like more but you can scroll with the arrows.
+head -n 5 (file directory)       display the first few lines   Note: 5 is the number of lines you want to see
+tail -n 3 (file directory)       display the last few lines    Note: 3 is the number of lines you want to see
+
+Note: the cat command also combine or concatenate.
+

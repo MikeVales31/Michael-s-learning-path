@@ -1,0 +1,12 @@
+Development workflow
+
+We take an application and dockerize it. (add a docker file).
+
+1. Docker files are plain text files that includes instructions to package up this applications into an image.
+Note: the image contains a cut down OS, runtime enviroment, application files, third party libraries, enviroment variables ...
+
+2. Tell docker to start a container using that image.
+Note: containers are special process, because it has its own file system which is provided by the image. And this is how we run locally.
+
+Note: Once we have the image we can push it to a registry (Docker hub) we can pull it from any machines running Docker.
+

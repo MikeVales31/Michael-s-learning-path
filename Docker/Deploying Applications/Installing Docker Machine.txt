@@ -1,0 +1,7 @@
+Installing Docker Machine 
+
+Once we have a server, we need to use a tool called Docker Machine to talk to the Docker engine on that server.
+So this way we can execute Docker commands in our terminal and our commands will be send to the Docker engine  on our server.
+
+1. Go to (github.com/docker/machine/releases)
+2. Select your operator system and run the code.

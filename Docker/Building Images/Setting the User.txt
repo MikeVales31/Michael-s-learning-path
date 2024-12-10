@@ -1,0 +1,14 @@
+Setting the User
+
+By default Docker took the root user that has the highest privileges.
+
+Commands
+
+ducker run -it (alpine)
+addgroup (name)
+adduser -S -G (primary group) (name of the user)      Note: Whenever you create a user make a group with the same name
+groups app 
+
+Note: in visual studio on a Dockerfile make the commands and save the changes.
+Note: use the build command on the terminal.
+

@@ -1,0 +1,10 @@
+Connecting to the Host
+
+Commands 
+
+docker-machine ls                                     see all docker machines
+
+Note: a swarm represent a cluster, to connect witht his machine we use SSH (Secure Shell) and it is a protocole for connecting with servers.
+
+docker-machine ssh (name of the machine)
+

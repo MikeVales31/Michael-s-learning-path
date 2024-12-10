@@ -1,0 +1,14 @@
+Speeding Up Builds
+
+1. When it build the image, it takes a collection of layers.
+2. it will create a new layer creating a group and a user.
+3. ...
+
+Note: for each instruction it will create a layer.
+
+Note: Docker has an optimization mechanism built into it. The next time we ask Docker to build this image it is going to look at the instruction
+      and see if it has changed, if it hasn't it will reuse it from its cache. And make this line by line.
+
+IMPORTANT
+To optimize the builds you should organize your Docker file such that the instructions that don't change frequently should be on the top
+and the instructions or files that change frequently should be down.

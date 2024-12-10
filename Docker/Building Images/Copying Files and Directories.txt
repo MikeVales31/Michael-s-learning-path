@@ -1,0 +1,35 @@
+Copying Files and Directories
+
+After using the FROM command, use the COPY command.
+
+Note: when we execute the build command the last argument tells from where is accessible, and Ducker client sends the content of this 
+      directory to Ducker engine this is called the build context.
+
+
+
+Example:
+
+    FROM node:14.16.0-alpine3.13
+    COPY package.json README.md /app/                      
+
+    Note: that in the copy command we can add multiple files (package.json, README.md) and you can make it also by patterns. 
+          /app/ is the directory.
+    
+    Note: you can also use a relative path if we set the working directory first.
+
+    FROM node:14.16.0-alpine3.13
+    WORKDIR /app
+    COPY . . 
+
+    Note: you can also use a this format  COPY["(file name with extension)", "working directory"] 
+
+
+The ADD command has exactly the same syntax of copy, but it has 2 additional features.
+
+1. We can add a file from a URL.
+2. If you pass a compress file add will automatically uncompress this into a directory.
+
+
+FINAL STEPS
+1. In the terminal we have to build the image.
+2. Start a container with the image 

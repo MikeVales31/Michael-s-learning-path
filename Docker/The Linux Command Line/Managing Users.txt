@@ -1,0 +1,14 @@
+Managing Users
+
+Commands
+
+useradd                        add a user
+useradd -m (name)              create the user's home directory
+usermod                        modify a user
+usermod -s (shell)(user)       set the shell for the user
+userdel   (name)               delete a user
+cat                            look at a configuration file                    example: cat /etc/passwd
+cat /etc/shadow                see passwords on a encrypted format             Note: this file is only available for the root user
+adduser (name)                 add a user, group and create a directory...     Note: it is more interactive than useradd  
+
+

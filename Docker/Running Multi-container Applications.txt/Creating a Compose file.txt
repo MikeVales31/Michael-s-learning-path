@@ -1,0 +1,31 @@
+Creating a Compose File 
+
+1. Create a new compose file (docker-compose.yml)             Note: if you already have 1 change it the name to (_[name]) and create a new one
+2. Inside the yml file make the next commands
+
+Commands
+
+version: "3.8"                               Note: the last version
+services:                                    Note: each service should have its own dockerfile
+    web: 
+        build: ./frontend                    Note: you can use any property of docker instead the build property
+        ports: 
+            - 3000:3000                      Note: the first is port of the host, the other is port 3000 of the container
+    api:
+        build: ./backend
+        ports: 
+            - 3001:3001
+        enviroments:
+            DB_URL: mongodb://db/vidly      Note: you need to type a mongoDB connection string, you can also sepcify the database name
+    db:
+        image: mongo:4.0-xenial
+        ports: 
+            -27017:27017                    Note: mongodb by default listens on port 27017
+        volumes: 
+            - vidly:/data/db                Note: in this case vidly is the name of the application too
+
+volumes:                                    Note: this is the syntax we have to follow 
+  vidly:                                    
+
+
+Note: the most used properties are (build, image, ports, volumes, enviroment, ...)

@@ -1,0 +1,6 @@
+Containers File System
+
+Note: they are invisible to other containers, so if we delete a container the file system will also go with it and we will lose 
+      our data. So the you never store the data in a containers file system. That's what volumes are for.
+
+

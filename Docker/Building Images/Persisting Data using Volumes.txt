@@ -1,0 +1,28 @@
+Persisting Data using Volumes 
+
+Volumes: storage outide of containers, it can be a directory on the host or somewhere in the cloud.
+
+
+Commands
+
+docker volume create (volume name)                                       Create a new volume 
+docker volume inspect (volume name)                                      Note: Driver is a dirctory on the host 
+                                                                               Mountpoint directory location 
+
+docker run -d -p 4000:3000 -v (volume name):(absolute path) (image)            Note: in the absolute path it has to be in the file system 
+                                                                               of the container
+
+docker exec -it (container) sh 
+
+Note: when you create the data directory checkout who has the permissions to do things.
+Note: in the Dockerfile use the (WORKDIR) and then (RUN) mkdir.
+Note: reubuild the image.
+Note: go to the directory and create the data (files or anything).
+
+Note: in volumes if you delete the container, the file will keep existing. Because the directory is stored outside of the container.
+
+
+IMPORTANT
+
+Volumes are the right way to persist data in Docker as applications because they have different life cycles from containers.
+We can share a volume amongst multiple containers.

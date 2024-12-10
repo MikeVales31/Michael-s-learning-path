@@ -1,0 +1,18 @@
+Migrating the Database
+
+When you release the application, we want the database in a particular shape with some data.
+
+
+Database Migration tool (migrate mongo)
+
+Using this we can create database migration scripts.
+
+Commands
+
+migrate-mongo up 
+
+
+Note: for executing the database migration as part of starting our application.
+1. Go to the docker file in the backend
+2. Call the CMD in this example ["npm", "start"]
+3. Go to the compose-file and add below volumes (command: ./wait-for db:27017 && migrate-mongo up && npm start) 

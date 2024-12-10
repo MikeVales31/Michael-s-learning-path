@@ -1,0 +1,12 @@
+Deploying the Application 
+
+1. docker-machine ls
+2. docker-machine env (name of machine)
+
+Note: if you put $() it will execute first the things inside the parenthesis, then will aplly it as an argument of the other command.
+Note: take the last command of the (docker-machine env (name of machine)) that returns (eval...) and run it, 
+      then any commands we run after will be sent to the docker engine on the machine 
+
+Command
+
+docker-compose -f (docker-compose [file for production]) up -d

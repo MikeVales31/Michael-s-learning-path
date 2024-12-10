@@ -1,0 +1,14 @@
+Images
+An image includes everything an application needs to run. An image is a collection of layers.
+
+1. A cut down Operating System (OS)
+2. Third party libraries
+3. Apllication files
+4. Environment variables
+
+Container
+1. Provides an isolated enviroment 
+2. Can be stopped & restarted
+3. Is just a process
+
+Note: a container gets its file system from the image. But each container has its own right layer.

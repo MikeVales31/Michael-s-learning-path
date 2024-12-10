@@ -1,0 +1,21 @@
+Virtual Machines vs Containers
+
+Container 
+1. Isolated enviroment for running an application like the Virtual Machine. 
+2. Lightweight.
+3. Use operator system (OS) of the host. (The kernel of the host)
+4. Start quickly.
+5. Need less hardware resources.
+
+Note: kernel is the core of an operating system (manages applications and hardware resources).
+
+Virtual Machine 
+1. An abstraction of a machine (physical hardware), isolated enviroment.
+2. Each one need a full copy of an operating system that needs to be licence patched and monitored.
+3. Slow to start.
+4. Resource intensive.
+
+
+Hypervisor (VirtualBox, VMware, Hyper -v)
+Tool that allow us to run several virtual machines in our physical machine.
+

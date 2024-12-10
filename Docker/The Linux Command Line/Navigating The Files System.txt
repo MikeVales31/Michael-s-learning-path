@@ -1,0 +1,9 @@
+Navigating The Files System
+
+Commands
+
+pwd   (print working directory)
+ls    (list)
+ls -1 (it is a list of just 1 by row)
+ls -l (long listing)                                      Note: more detailed.
+cd    (change directory)                                  Note: can make a relative path or absolute paths

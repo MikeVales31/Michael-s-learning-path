@@ -1,0 +1,10 @@
+Saving and Loading Images
+
+Image in the machine and send it to another machine without Docker Hub.
+
+Commands 
+
+docker image save -o (directory) (image)         example: docker image save -o react-app.tar react-app:3           save an image into a file                          
+                                                 Note: extension (tar) is the same than (zip)
+
+docker image load -i (directory)                 example: docker image load -i react-app.tar                       

@@ -1,0 +1,21 @@
+Managing packages
+
+Package manager (npm, yarn, pip, NuGet, apt)
+
+Note: in Ubuntu we use apt (advance package tool), when you have the propmt shell.
+Note: nano is a basic text editor for Linux.
+
+Commands
+apt (package manager)
+apt-get (package manager)
+apt install nano (looks package database nano)
+apt list (show all the packages)
+apt update (update package database)
+apt remove nano (uninstall nano or any other)
+clear (clears the terminal window)
+
+Note: Ctrl + N  (clears the terminal window)
+
+IMPORTANT
+Before installing a package, you should always run apt update to update the package database and then you install it.
+

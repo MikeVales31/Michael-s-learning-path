@@ -1,0 +1,6 @@
+Starting and Stopping the Application 
+
+docker-compose up --build                                          docker will run it inside containers otherwise it will build the images
+docker-compose up -d                                               start the containers in the background 
+docker-compose ps                                                  see all the containers relevant to the application 
+docker-compose down                                                free some resources   

@@ -1,0 +1,6 @@
+Excluding Files and Directories
+
+1. Create a file named (.dockerignore)
+2. Add the files (name of the file)/
+
+Note: in this case we exlude node_modules.
