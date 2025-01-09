@@ -1,6 +1,6 @@
 What is docker 
 
-A platform for building, running and shipping applications. We can easily package our applications with everything it needs,
+A platform for building, running and shipping applications in a consistent way. We can easily package our applications with everything it needs,
 and run it anywhere on any machine with Docker.
 
 
@@ -10,7 +10,7 @@ Why your apps run in your local machine but does not somewhere else?
 3. Different configuration settings
 
 
-Note: in new machines you do not have to install and configure all, just tell docker to bring the application
+Note: in new machines you do not have to install and configure all, just tell docker to bring the application and it will automatically do it
 
 
 How to bring a docker application?

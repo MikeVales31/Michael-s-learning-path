@@ -4,4 +4,4 @@ It uses a client - server(Docker engine) architecture
 1. The client component talks the serve component throw a REST API
 2. The server sits in the background and takes care of building and running Docker containers
 
-Note: Windows can run Windows and Linux, Linux just Linux, Mac uses a Linux Virtual Machine to run Linux containers.
+Note: Windows can run Windows and Linux containers, Linux just Linux containers, Mac uses a Linux Virtual Machine to run Linux containers.

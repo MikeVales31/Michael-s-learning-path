@@ -16,9 +16,9 @@ Commands
 
 Note: r means read, w means write and x means execute.
 
-chmod u+x (where)              change the permissions for the user              N
+chmod u+x (where)              change the permissions for the user              
 chmod g                        change the permissions for the user
 chmod o                        change the permissions for the user
 
-Note: you can change permissions of different combinations in one go (chmod og+x) and give it for multiple files just write it at the end4
+Note: you can change permissions of different combinations in one go (chmod og+x) and give it for multiple files just write it at the end
       by pattern too.

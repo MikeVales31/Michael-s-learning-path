@@ -1,0 +1,16 @@
+Setting Environment Variables
+
+After the RUN command. Use the ENV command.
+
+ENV (variable)=(assignation)
+
+Example:
+
+FROM 
+WORKDIR
+COPY
+RUN
+ENV API_URL=http://api.myapp.com/ 
+
+Note: in a container we use (printenv) for inspecting environment variables, we can also (printenv)(variable) so it returns the value.
+      Another option is (echo $(variable)) and it return the value.

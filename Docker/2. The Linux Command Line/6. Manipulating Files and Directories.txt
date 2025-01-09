@@ -1,0 +1,13 @@
+Manipulating Files and Directories
+
+Commands
+
+mkdir + (name)         create a directory with that name
+mv                     change the name or move it (mv name1 name2) or (mv name path)  
+ 
+touch + (name)         create a new file                                                Note: you can create multiple files in one go
+rm + (name)            remove files                                                     Note: you can remove 1 or multiple files even with 
+                                                                                              a pattern
+rm -r + (direct)       removes directories                                              Note: the r means recursive
+cd                     change the located place
+

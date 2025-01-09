@@ -5,6 +5,6 @@ Choosing the Right Base Image
 
 3. FROM (use an specific version of the technology)
 4. In the project directory in the terminal we build an image (docker build -t react-app .)
-5. Use (ducker images) or (ducker image ls) to see all images.
+5. Use (docker images) or (ducker image ls) to see all images.
 6. Now let's start a container with the image (docker run -it (image name))                       Note: optionally at the end you can
 7. Press (Ctrl + C)                                                                                     specify the command to run

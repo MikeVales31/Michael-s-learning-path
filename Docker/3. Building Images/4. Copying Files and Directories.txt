@@ -2,8 +2,8 @@ Copying Files and Directories
 
 After using the FROM command, use the COPY command.
 
-Note: when we execute the build command the last argument tells from where is accessible, and Ducker client sends the content of this 
-      directory to Ducker engine this is called the build context.
+Note: when we execute the build command the last argument tells from where is accessible, and Docker client sends the content of this 
+      directory to Docker engine this is called the build context.
 
 
 

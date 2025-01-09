@@ -1,10 +1,10 @@
 Defining Entrypoints
 
-Note: in the project directory
+Note: in the project directory (visualstudio Dockerfile)  
 
 Command 
 
-ducker run (image name) npm start
+docker run (image name) npm start
 
 
 

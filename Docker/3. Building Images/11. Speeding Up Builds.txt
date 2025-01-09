@@ -1,8 +1,14 @@
 Speeding Up Builds
 
 1. When it build the image, it takes a collection of layers.
-2. it will create a new layer creating a group and a user.
+2. it will create a new layer with the modify files creating a group and a user.
 3. ...
+
+COMMAND 
+
+docker history (name of the image)                                    example: docker history react-app    Note: read the list from buttom to top
+      
+
 
 Note: for each instruction it will create a layer.
 

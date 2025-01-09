@@ -2,8 +2,11 @@ Navigating The Files System
 
 Commands
 
-pwd   (print working directory)
+pwd   (print working directory)                           Note: / respresents the root directory    
 ls    (list)
 ls -1 (it is a list of just 1 by row)
 ls -l (long listing)                                      Note: more detailed.
 cd    (change directory)                                  Note: can make a relative path or absolute paths
+
+Note: dark blue items are directories, to go out of the directory use (cd ..)
+Note: when you type (cd ~) go to the home directory of the user

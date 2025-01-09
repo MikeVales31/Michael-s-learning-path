@@ -13,7 +13,7 @@ docker-compose -f (docker-compose file) up --build
 
 
 IMPORTANT 
-To deplo Docker applications
+To deploy Docker applications
 
 1. Activate the Docker machine (docker-machine ls)
 2. Run (docker-machine env [machine name])
