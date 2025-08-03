@@ -1,0 +1,15 @@
+    #firstParagraph{
+        color: aliceblue;
+        font-size: 24px;
+    }
+    .red{
+        color:red;
+        font-size: 25px;
+    }
+    .blue{
+        color:blue;
+        font-size: 20px;
+    }
+    .bigFont{
+        font-size: 36px;
+    }

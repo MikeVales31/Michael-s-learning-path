@@ -1,0 +1,41 @@
+.highlight {
+    background-color: yellow;
+}
+
+.bigText {
+    font-size: 200%;
+    font-weight: bold;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.oneText {
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    background-color: red;
+    color: white;
+}
+
+.twoText {
+    line-height: 30px;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+}
+
+body {
+    background-color: bisque;
+}
+
+section {
+    background-color: aliceblue;
+}

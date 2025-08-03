@@ -1,0 +1,9 @@
+username = user
+password = password
+role = USER
+
+
+username = admin
+password = adminpass
+role = ADMIN
+

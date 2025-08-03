@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.BankTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! -- in com.example.demo.BankTest
+com.example.demo.BankTest.shouldNotAllowOverdraft -- Time elapsed: 0.033 s <<< ERROR!
+java.lang.IllegalArgumentException: Insufficient balance
+	at com.example.demo.Bank.withdraw(Bank.java:29)
+	at com.example.demo.BankTest.shouldNotAllowOverdraft(BankTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.example.demo.BankTest.shouldRetire -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException: Withdraw amount must be positive
+	at com.example.demo.Bank.withdraw(Bank.java:32)
+	at com.example.demo.BankTest.shouldRetire(BankTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.example.demo.BankTest.shouldSumEvens -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <25> but was: <30>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at com.example.demo.BankTest.shouldSumEvens(BankTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
