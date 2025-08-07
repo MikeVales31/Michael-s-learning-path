@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: whitesmoke;
+  
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  line-height: 1.8;
+  background-color: grey;
+  color: black
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  color: black
+}
+
+header {
+  background: lightblue;
+  color:grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: broadway, sans-serif;
+  color: red;
+
+}
+
+form {
+  background: lightblue;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+form button {
+  background: grey;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.interactive-button {
+  background: grey;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: green;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.user-list li {
+  background: darkgray;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}
